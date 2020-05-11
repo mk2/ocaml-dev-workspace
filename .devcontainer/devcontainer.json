@@ -1,0 +1,6 @@
+{
+  "image": "ocaml/opam2:latest",
+  "forwardPorts": [3000],
+  "extensions": ["ocamllabs.ocaml-platform"],
+  "postCreateCommand": "bash scripts/install-ocaml-tools.sh"
+}
